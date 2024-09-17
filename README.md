@@ -1,4 +1,4 @@
-# Minato
+# Minato for Soneium testnet
 ## Minato Setup Guide / Container Edition
 The explanation is provided on the following page.
 
