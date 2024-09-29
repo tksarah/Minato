@@ -11,3 +11,6 @@ The explanation is provided on the following page.
 ### JA:
 
 [Minato ノードのセットアップ](https://note.com/tksarahweb3/n/n97bfc88271b7)
+
+### Official Soneium Repo
+https://github.com/Soneium/soneium-node
