@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# docker compose up -d
+
+# docker compose stop
+
+# docker logs -f minato-op-geth-minato-1
+
+# docker logs -f minato-op-node-minato-1
+
+# docker container ls --format "table {{.Names}}\t{{.Status}}"
