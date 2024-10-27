@@ -32,7 +32,9 @@ The original reference can be found [here](https://github.com/smartcontracts/sim
 After completing the preparations as described above, start the containers and run progress.sh.
 If synchronization starts correctly, you will see the following output.
 
-Note: However, if this is the first time you are starting the containers, it is advisable to wait about 30 seconds before executing the script.
+_Note: If this is the first time you are starting the containers, it is advisable to wait about 30 seconds before executing the script._
+
+_Note: If you run this script from another node across a firewall, please ensure that port 8545 is allowed._
 
 ```
 # ./progress.sh
@@ -42,7 +44,7 @@ Blocks per minute: 14340
 Hours until sync completed: 20
 ```
 
-If the op-node is not running(or it has any problems), you will see a message like the one below.
+If the op-node-minato container is not running(or it has any problems), you will see a message like the one below.
 At this point, op-geth is running.
 
 ```
@@ -53,7 +55,7 @@ Blocks per minute: 0
 Not syncing
 ```
 
-If both op-geth is not running, you will see a message like the one below.
+If the op-geth-minato container is not running, you will see a message like the one below.
 
 ```
 Error: error sending request for url (http://<your p2p advertise ip address>:8545/)
