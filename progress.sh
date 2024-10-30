@@ -1,4 +1,12 @@
 #!/bin/bash
+#
+# ./progress.sh
+# Chain ID: 1946
+# Sampling, please wait
+# Blocks per minute: 30
+# Hours until sync completed: 8719
+# Days until sync complete: 363
+#
 
 set -eu
 
