@@ -11,3 +11,8 @@ apt-get install docker-compose-plugin -y
 docker compose version
 # After running download.sh
 cp snippet/*.sh soneium-node/minato/
+
+# Setup foundryup
+curl -L https://foundry.paradigm.xyz | bash
+source ~/.bashrc
+foundryup
