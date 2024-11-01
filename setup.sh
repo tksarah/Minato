@@ -9,4 +9,3 @@ $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/s
 apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 apt-get install docker-compose-plugin -y
 docker compose version
-git clone https://github.com/tksarah/Minato.git
