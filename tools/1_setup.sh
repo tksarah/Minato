@@ -9,8 +9,11 @@ $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/s
 apt-get update
 apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 docker compose version
+
+
 # After running download.sh
 cp snippet/*.sh soneium-node/minato/
+
 
 # Setup foundryup
 curl -L https://foundry.paradigm.xyz | bash
