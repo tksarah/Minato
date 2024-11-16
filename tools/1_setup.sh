@@ -18,4 +18,5 @@ cp snippet/*.sh soneium-node/minato/
 # Setup foundryup
 curl -L https://foundry.paradigm.xyz | bash
 source ~/.bashrc
+export PATH=$HOME/.foundry/bin:$PATH
 foundryup
