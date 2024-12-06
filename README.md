@@ -64,5 +64,8 @@ Error: error sending request for url (http://<your p2p advertise ip address>:854
 # References
 ## Official Soneium Repo
 https://github.com/Soneium/soneium-node
+This repository will be closed for a few weeks starting from December 2, 2024. In the meantime, you can refer to the procedures at the following URL.
+
+https://startale.notion.site/Minato-Node-Setup-15234d29349180a68774dddbdca01c88
 ## OPTIMISM DOCS
 https://docs.optimism.io/builders/node-operators/tutorials/node-from-docker
